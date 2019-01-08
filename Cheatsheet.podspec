@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Cheatsheet'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Pod with useful utilities, extensions and code snippets.'
   s.description      = <<-DESC
 This repo is a place where I put all useful utilities and extension that I use in my projects.

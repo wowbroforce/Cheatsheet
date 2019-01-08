@@ -1,29 +1,30 @@
 # Cheatsheet
 
-[![CI Status](https://img.shields.io/travis/Prokhor Kharchenko/Cheatsheet.svg?style=flat)](https://travis-ci.org/Prokhor Kharchenko/Cheatsheet)
-[![Version](https://img.shields.io/cocoapods/v/Cheatsheet.svg?style=flat)](https://cocoapods.org/pods/Cheatsheet)
-[![License](https://img.shields.io/cocoapods/l/Cheatsheet.svg?style=flat)](https://cocoapods.org/pods/Cheatsheet)
-[![Platform](https://img.shields.io/cocoapods/p/Cheatsheet.svg?style=flat)](https://cocoapods.org/pods/Cheatsheet)
+## Description
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+This repo is a place where I put all useful utilities and extension that I use i
+n my projects.
 
 ## Installation
 
-Cheatsheet is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+To install Cheatsheet, simply add the following lines to your Podfile:
 ```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wowbroforce/Specs.git'
+
+...
+
 pod 'Cheatsheet'
 ```
 
+## Usage
+
+
+
 ## Author
 
-Prokhor Kharchenko, wowbroforce@gmail.com
+wowbroforce, wowbroforce@gmail.com
 
 ## License
 
-Cheatsheet is available under the MIT license. See the LICENSE file for more info.
+Associate is available under the MIT license. See the LICENSE file for more info.

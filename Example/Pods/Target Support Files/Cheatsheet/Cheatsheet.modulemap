@@ -1,0 +1,6 @@
+framework module Cheatsheet {
+  umbrella header "Cheatsheet-umbrella.h"
+
+  export *
+  module * { export * }
+}

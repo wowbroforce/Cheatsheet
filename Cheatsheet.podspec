@@ -8,35 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Cheatsheet'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Cheatsheet.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.0'
+  s.summary          = 'Pod with useful utilities, extensions and code snippets.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This repo is a place where I put all useful utilities and extension that I use in my projects.
                        DESC
 
-  s.homepage         = 'https://github.com/Prokhor Kharchenko/Cheatsheet'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/wowbroforce/Cheatsheet'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Prokhor Kharchenko' => 'wowbroforce@gmail.com' }
-  s.source           = { :git => 'https://github.com/Prokhor Kharchenko/Cheatsheet.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/wowbroforce/Cheatsheet.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Cheatsheet/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Cheatsheet' => ['Cheatsheet/Assets/*.png']
-  # }
+  s.swift_version = '4.2'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation', 'UIKit'
+
+  s.source_files = 'Cheatsheet/**/*'
+
+  s.dependency 'RxSwift', '~> 4.4'
+  s.dependency 'RxCocoa', '~> 4.4'
+  s.dependency 'RxDataSources', '~> 3.1'
 end

@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'Cheatsheet_Example' do
   pod 'Cheatsheet', :path => '../'
+  pod 'RxSwift', '~> 4.4'
+  pod 'RxCocoa', '~> 4.4'
+  pod 'RxDataSources', '~> 3.1'
 
   target 'Cheatsheet_Tests' do
     inherit! :search_paths

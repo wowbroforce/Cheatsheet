@@ -1,0 +1,38 @@
+{
+  "name": "Cheatsheet",
+  "version": "0.1.0",
+  "summary": "Pod with useful utilities, extensions and code snippets.",
+  "description": "This repo is a place where I put all useful utilities and extension that I use in my projects.",
+  "homepage": "https://github.com/wowbroforce/Cheatsheet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Prokhor Kharchenko": "wowbroforce@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wowbroforce/Cheatsheet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_version": "4.2",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "source_files": "Cheatsheet/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.4"
+    ],
+    "RxCocoa": [
+      "~> 4.4"
+    ],
+    "RxDataSources": [
+      "~> 3.1"
+    ]
+  }
+}
